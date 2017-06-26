@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">SwipeRefresh RecyclerView</string>
+    <string name="sweet">热火</string>
+    <string name="sweet_title">热火朝天</string>
+    <string name="author_image">头像</string>
+    <string name="author_name">Stark Green</string>
+    <string name="content">乳燕飞华屋。悄无人、桐阴转午，晚凉新浴。手弄生绡白团扇，扇手一时似玉。渐困倚、孤眠清熟。帘外谁来推绣户，枉教人、梦断瑶台曲。又却是，风敲竹。
+    </string>
+    <string name="comment">SwipeRefresh RecyclerView onRefresh and onLoadMore</string>
+
+</resources>
