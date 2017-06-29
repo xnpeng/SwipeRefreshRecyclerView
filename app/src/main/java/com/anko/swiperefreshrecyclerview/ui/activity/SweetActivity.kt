@@ -178,7 +178,6 @@ class SweetActivity : AppCompatActivity() {
 
                 val listHeadView = listOf(holder.mIvHead1, holder.mIvHead2, holder.mIvHead3, holder.mIvHead4, holder.mIvHead5, holder.mIvHead6, holder.mIvHead7, holder.mIvHead8, holder.mIvHead9)
 
-
                 val medias = headList[position]
                 if (!medias.isEmpty())
                     for (i in 0..medias.size - 1) {
@@ -247,10 +246,9 @@ class SweetActivity : AppCompatActivity() {
             return headList.size + bodyList.size + footList.size
         }
 
-
     }
 
-    class HeadHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
+    internal class HeadHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         val mIvHead1: ImageView = itemView.findViewById(R.id.sweet_image1) as ImageView
         val mIvHead2: ImageView = itemView.findViewById(R.id.sweet_image2) as ImageView
         val mIvHead3: ImageView = itemView.findViewById(R.id.sweet_image3) as ImageView

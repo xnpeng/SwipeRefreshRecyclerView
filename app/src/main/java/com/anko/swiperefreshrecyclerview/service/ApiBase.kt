@@ -10,7 +10,8 @@ import retrofit2.Retrofit
 import retrofit2.adapter.rxjava2.RxJava2CallAdapterFactory
 import retrofit2.converter.gson.GsonConverterFactory
 
-val apiBaseUrl = "http://192.168.2.104:8888"
+//val apiBaseUrl = "http://304f7e16.ngrok.io/"
+val apiBaseUrl = "http://192.168.2.208:8888/"
 val AppId = "test"
 val AppKey = "test"
 val glideHeader: LazyHeaders = LazyHeaders.Builder().addHeader("Authorization", Credentials.basic(AppId, AppKey)).build()
